@@ -1,0 +1,15 @@
+{
+  "name": "microservices-app",
+  "version": "1.0.0",
+  "description": "Simple microservices demo for AWS EC2 lab",
+  "scripts": {
+    "start-user": "node user-service.js",
+    "start-product": "node product-service.js",
+    "start-order": "node order-service.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.7.0",
+    "dotenv": "^16.0.3"
+  }
+}
